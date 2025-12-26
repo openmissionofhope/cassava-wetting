@@ -28,9 +28,9 @@ const videoIds = {
   // Portuguese (Brazil)
   pt: 'XBtKtT29kXI',
   umb: 'XBtKtT29kXI', // Umbundu (Angola) - Portuguese widely spoken
-  // Ewe/Anlo (Ghana)
-  ee: 'RLxAa0uttPw',
-  ak: 'RLxAa0uttPw',  // Akan/Twi (Ghana) - Ewe version as closest
+  // Ghanaian languages
+  ak: 'ELO7qsaGCJ8',  // Akan/Twi (Ghana) - Fante-like accent
+  ee: 'RLxAa0uttPw',  // Ewe (Ghana) - Anlo accent
   // English (USA) - for international English
   en: 'p_JqS9kwueI',
   es: 'p_JqS9kwueI',  // Spanish speakers - US English as fallback
