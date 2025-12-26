@@ -6,9 +6,9 @@ import { useTranslation } from '../lib/translations';
 // SAWBO video IDs for different language versions
 const videoIds = {
   // Amharic (Ethiopia)
-  am: '0YVuTejs-Hg',
+  am: 'T2Agb2XroDY',
   // Lingala (DRC)
-  ln: 'T2Agb2XroDY',
+  ln: '0YVuTejs-Hg',
   // French (DRC accent) - for Francophone Africa
   fr: 'IsK0aZqI9-o',
   kg: 'IsK0aZqI9-o',  // Kikongo (DRC) - French widely spoken
