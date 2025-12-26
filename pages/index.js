@@ -1,14 +1,15 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
-import { useLanguage } from '../lib/LanguageContext';
+import { useLanguage, languages } from '../lib/LanguageContext';
 import { useTranslation } from '../lib/translations';
 
 export default function Home() {
   const { language } = useLanguage();
   const t = useTranslation(language);
+  const isRtl = languages[language]?.rtl || false;
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col" dir={isRtl ? 'rtl' : 'ltr'}>
       <Head>
         <title>{t.pageTitle} | Open Mission of Hope</title>
         <meta name="description" content={t.metaDescription} />
