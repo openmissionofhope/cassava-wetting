@@ -69,32 +69,32 @@ export default function Home() {
             <ul className="list-disc pl-5 mb-6 space-y-2">
               <li>
                 <a 
-                  href="https://doi.org/10.1016/j.foodchem.2005.11.044" 
+                  href="https://biology-assets.anu.edu.au/hosted_sites/CCDN/papers/Howard_06.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
                 >
-                  Bradbury, J. H. (2006). Simple wetting method to reduce cyanogen content of cassava flour. Food Chemistry, 97(4), 616-620.
+                  Bradbury, J. H. (2006). Simple wetting method to reduce cyanogen content of cassava flour. Journal of Food Composition and Analysis, 19(4), 388-393.
                 </a>
               </li>
               <li>
                 <a 
-                  href="https://doi.org/10.1016/j.foodchem.2008.07.116" 
+                  href="https://biology-assets.anu.edu.au/hosted_sites/CCDN/papers/Cumbana_2007.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
                 >
-                  Cumbana, A., Mirione, E., Cliff, J., & Bradbury, J. H. (2009). Reduction of cyanide content of cassava flour in Mozambique by the wetting method. Food Chemistry, 113(4), 1339-1343.
+                  Cumbana, A., Mirione, E., Cliff, J., & Bradbury, J. H. (2007). Reduction of cyanide content of cassava flour in Mozambique by the wetting method. Food Chemistry, 101(3), 894-897.
                 </a>
               </li>
               <li>
                 <a 
-                  href="https://doi.org/10.1016/j.foodchem.2014.01.066" 
+                  href="https://biology-assets.anu.edu.au/hosted_sites/CCDN/papers/Bradbury_Denton_2010.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
                 >
-                  Bradbury, J. H., & Denton, I. C. (2014). Rapid wetting method to reduce cyanogen content of cassava flour. Food Chemistry, 158, 207-211.
+                  Bradbury, J. H., & Denton, I. C. (2010). Rapid wetting method to reduce cyanogen content of cassava flour. Food Chemistry, 121(2), 591-594.
                 </a>
               </li>
             </ul>
@@ -103,8 +103,8 @@ export default function Home() {
             <div className="aspect-w-16 aspect-h-9">
               <iframe 
                 className="w-full h-80"
-                src="https://www.youtube.com/embed/Vl0nBPsZpVs"
-                title="Wet Processing of Cassava by SAWBO"
+                src="https://www.youtube.com/watch?v=09UHqc313Us"
+                title="How To Remove The Poison From Cassava Flour in English by SAWBO"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
