@@ -2,6 +2,8 @@
 
 A Next.js static site explaining Howard Bradbury's wetting method for safely processing cassava to prevent cyanide poisoning and konzo disease.
 
+**Live site:** [https://openmissionofhope.github.io/cassava-wetting/](https://openmissionofhope.github.io/cassava-wetting/)
+
 ## Project Overview
 
 This educational site provides information about:
@@ -11,10 +13,10 @@ This educational site provides information about:
 
 ## Technologies Used
 
-- Next.js v14 (with Pages Router)
-- React
+- Next.js 16 (with Pages Router)
+- React 19
 - Tailwind CSS
-- Static site export configuration for CDN hosting
+- Static site export via GitHub Pages
 
 ## Getting Started
 
@@ -31,13 +33,17 @@ This educational site provides information about:
 
 ## Building for Production
 
-To create a static build for deployment:
+To create a static build:
 
 ```
-npm run export
+npm run build
 ```
 
-The static site will be generated in the `out` directory, ready for deployment to any static hosting service or CDN.
+The static site will be generated in the `out` directory, ready for deployment to any static hosting service.
+
+## Deployment
+
+This site automatically deploys to GitHub Pages on push to `main` via GitHub Actions.
 
 ## License
 
