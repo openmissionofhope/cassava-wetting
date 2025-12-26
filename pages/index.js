@@ -130,7 +130,7 @@ export default function Home() {
               info@openmissionofhope.org
             </a>
           </p>
-          <p className="text-xs mt-3 text-green-200">&copy; {new Date().getFullYear()} Open Mission of Hope. {t.allRightsReserved}</p>
+          <p className="text-xs mt-3 text-green-200">{t.shareEncouragement}</p>
         </div>
       </footer>
     </div>
