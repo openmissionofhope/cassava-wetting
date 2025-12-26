@@ -10,19 +10,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#15803d" />
 
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://cassava.openmissionofhope.org/" />
-
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://cassava.openmissionofhope.org/" />
         <meta property="og:title" content="Cassava Wetting Method - Safe Processing Guide" />
         <meta property="og:description" content="Learn about Howard Bradbury's wetting method for safely processing cassava to remove cyanide and prevent konzo disease." />
         <meta property="og:site_name" content="Open Mission of Hope" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://cassava.openmissionofhope.org/" />
         <meta name="twitter:title" content="Cassava Wetting Method - Safe Processing Guide" />
         <meta name="twitter:description" content="Learn about Howard Bradbury's wetting method for safely processing cassava to remove cyanide and prevent konzo disease." />
 
