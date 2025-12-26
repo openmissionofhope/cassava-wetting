@@ -3,10 +3,38 @@ import Navbar from '../components/Navbar';
 import { useLanguage, languages } from '../lib/LanguageContext';
 import { useTranslation } from '../lib/translations';
 
+// SAWBO video IDs for different language versions
+const videoIds = {
+  // French (DRC accent) - for Francophone Africa
+  fr: 'IsK0aZqI9-o',
+  ln: 'IsK0aZqI9-o',  // Lingala speakers often understand French
+  kg: 'IsK0aZqI9-o',  // Kikongo (DRC)
+  lu: 'IsK0aZqI9-o',  // Tshiluba (DRC)
+  sg: 'IsK0aZqI9-o',  // Sango (CAR)
+  rw: 'IsK0aZqI9-o',  // Kinyarwanda (Rwanda)
+  rn: 'IsK0aZqI9-o',  // Kirundi (Burundi)
+  mg: 'IsK0aZqI9-o',  // Malagasy (Madagascar)
+  wo: 'IsK0aZqI9-o',  // Wolof (Senegal)
+  ewo: 'IsK0aZqI9-o', // Ewondo (Cameroon)
+  fan: 'IsK0aZqI9-o', // Fang (Gabon)
+  fon: 'IsK0aZqI9-o', // Fongbe (Benin)
+  bm: 'IsK0aZqI9-o',  // Bambara (Mali)
+  dyu: 'IsK0aZqI9-o', // Dioula (Ivory Coast)
+  mos: 'IsK0aZqI9-o', // Moore (Burkina Faso)
+  mnk: 'IsK0aZqI9-o', // Mandinka (Gambia - French influence)
+  // Ewe/Anlo (Ghana accent)
+  ee: 'RLxAa0uttPw',
+  ak: 'RLxAa0uttPw',  // Akan/Twi (Ghana)
+  // Default: English (Nigeria accent) for all others
+};
+
+const getVideoId = (lang) => videoIds[lang] || '09UHqc313Us';
+
 export default function Home() {
   const { language } = useLanguage();
   const t = useTranslation(language);
   const isRtl = languages[language]?.rtl || false;
+  const videoId = getVideoId(language);
 
   return (
     <div className="min-h-screen flex flex-col" dir={isRtl ? 'rtl' : 'ltr'}>
@@ -97,8 +125,8 @@ export default function Home() {
             <div className="aspect-w-16 aspect-h-9">
               <iframe
                 className="w-full h-80"
-                src="https://www.youtube.com/embed/09UHqc313Us"
-                title="How To Remove The Poison From Cassava Flour in English by SAWBO"
+                src={`https://www.youtube.com/embed/${videoId}`}
+                title="How To Remove The Poison From Cassava Flour by SAWBO"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
