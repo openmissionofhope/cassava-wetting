@@ -25,14 +25,15 @@ const videoIds = {
   dyu: 'IsK0aZqI9-o', // Dioula (Ivory Coast)
   mos: 'IsK0aZqI9-o', // Moore (Burkina Faso)
   mnk: 'IsK0aZqI9-o', // Mandinka (Gambia - French influence)
-  // Ghanaian language (Fante-like)
-  ak: 'XBtKtT29kXI',  // Akan/Twi (Ghana)
+  // Portuguese (Brazil)
+  pt: 'XBtKtT29kXI',
+  umb: 'XBtKtT29kXI', // Umbundu (Angola) - Portuguese widely spoken
   // Ewe/Anlo (Ghana)
   ee: 'RLxAa0uttPw',
+  ak: 'RLxAa0uttPw',  // Akan/Twi (Ghana) - Ewe version as closest
   // English (USA) - for international English
   en: 'p_JqS9kwueI',
   es: 'p_JqS9kwueI',  // Spanish speakers - US English as fallback
-  pt: 'p_JqS9kwueI',  // Portuguese speakers - US English as fallback
   // Default: English (Nigeria accent) for African English speakers
 };
 
