@@ -5,11 +5,14 @@ import { useTranslation } from '../lib/translations';
 
 // SAWBO video IDs for different language versions
 const videoIds = {
+  // Amharic (Ethiopia)
+  am: '0YVuTejs-Hg',
+  // Lingala (DRC)
+  ln: 'T2Agb2XroDY',
   // French (DRC accent) - for Francophone Africa
   fr: 'IsK0aZqI9-o',
-  ln: 'IsK0aZqI9-o',  // Lingala speakers often understand French
-  kg: 'IsK0aZqI9-o',  // Kikongo (DRC)
-  lu: 'IsK0aZqI9-o',  // Tshiluba (DRC)
+  kg: 'IsK0aZqI9-o',  // Kikongo (DRC) - French widely spoken
+  lu: 'IsK0aZqI9-o',  // Tshiluba (DRC) - French widely spoken
   sg: 'IsK0aZqI9-o',  // Sango (CAR)
   rw: 'IsK0aZqI9-o',  // Kinyarwanda (Rwanda)
   rn: 'IsK0aZqI9-o',  // Kirundi (Burundi)
@@ -22,10 +25,15 @@ const videoIds = {
   dyu: 'IsK0aZqI9-o', // Dioula (Ivory Coast)
   mos: 'IsK0aZqI9-o', // Moore (Burkina Faso)
   mnk: 'IsK0aZqI9-o', // Mandinka (Gambia - French influence)
-  // Ewe/Anlo (Ghana accent)
+  // Ghanaian language (Fante-like)
+  ak: 'XBtKtT29kXI',  // Akan/Twi (Ghana)
+  // Ewe/Anlo (Ghana)
   ee: 'RLxAa0uttPw',
-  ak: 'RLxAa0uttPw',  // Akan/Twi (Ghana)
-  // Default: English (Nigeria accent) for all others
+  // English (USA) - for international English
+  en: 'p_JqS9kwueI',
+  es: 'p_JqS9kwueI',  // Spanish speakers - US English as fallback
+  pt: 'p_JqS9kwueI',  // Portuguese speakers - US English as fallback
+  // Default: English (Nigeria accent) for African English speakers
 };
 
 const getVideoId = (lang) => videoIds[lang] || '09UHqc313Us';
