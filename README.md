@@ -2,7 +2,7 @@
 
 A Next.js static site explaining Howard Bradbury's wetting method for safely processing cassava to prevent cyanide poisoning and konzo disease.
 
-**Live site:** [https://openmissionofhope.github.io/cassava-wetting/](https://openmissionofhope.github.io/cassava-wetting/)
+**Live site:** [https://cassava.live/](https://cassava.live/)
 
 ## Project Overview
 
