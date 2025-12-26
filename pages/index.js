@@ -103,7 +103,7 @@ export default function Home() {
             <div className="aspect-w-16 aspect-h-9">
               <iframe 
                 className="w-full h-80"
-                src="https://www.youtube.com/watch?v=09UHqc313Us"
+                src="https://www.youtube.com/embed/09UHqc313Us"
                 title="How To Remove The Poison From Cassava Flour in English by SAWBO"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

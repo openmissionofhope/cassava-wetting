@@ -7,6 +7,7 @@ export default function Navbar() {
         <Link href="/" className="text-xl font-bold hover:text-green-200 transition-colors">
           Cassava Wetting Method
         </Link>
+        <div id="google_translate_element"></div>
       </div>
     </nav>
   );
