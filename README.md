@@ -47,4 +47,4 @@ This site automatically deploys to GitHub Pages on push to `main` via GitHub Act
 
 ## License
 
-This project is dedicated to the public domain under [CC0 1.0 Universal](LICENSE).
+Licensed under the [Christian Open Source License (COSL) v1.0](LICENSE.md).
